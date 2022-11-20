@@ -1,0 +1,27 @@
+{
+  "name": "hw9",
+  "version": "1.0.0",
+  "description": "homework9",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmirr/HW9.git"
+  },
+  "keywords": [
+    "test",
+    "js",
+    "jest"
+  ],
+  "author": "Rodionov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmirr/HW9/issues"
+  },
+  "homepage": "https://github.com/Dmirr/HW9#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
