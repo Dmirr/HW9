@@ -6,3 +6,5 @@ const calculateBonus = (a, b) => {
   debugger;
   return bonus;
 };
+
+module.exports = calculateBonus;
