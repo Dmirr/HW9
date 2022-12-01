@@ -9,9 +9,12 @@ describe("тестирование расчета бонуса", () => {
     expect(calculateBonus(10, 10)).toBeLessThan(50);
   });
   it("Проверка граничных значений:граница => 50", () => {
-    expect(calculateBonus(51)).toBe(true);
+    expect(calculateBonus(30, 20)).toBe(50);
   });
   it("Граница < 50", () => {
-    expect(calculateBonus(49)).toBe(false);
+    expect(calculateBonus(19, 30)).toBe(49);
+  });
+  it("Сумма дробных чисел", () => {
+    expect(calculateBonus(0.3, 0.2)).toBe(0.5);
   });
 });
