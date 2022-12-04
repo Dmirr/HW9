@@ -17,7 +17,8 @@ describe("тестирование расчета бонуса", () => {
   it("Сумма дробных чисел", () => {
     expect(calculateBonus(0.3, 0.2)).toBeCloseTo(0.5);
   });
-  it("Сумма дробных чисел", () => {
-    expect(calculateBonus(19.33, 30.77)).toBeCloseTo(50.1);
+  it("Bonus", () => {
+    expect(calculateBonus(10, 40)).toBeGreaterThanOrEqual(50);
+    console.log("bonus = 50");
   });
 });
